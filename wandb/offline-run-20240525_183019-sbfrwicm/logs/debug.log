@@ -1,0 +1,37 @@
+2024-05-25 18:30:19,560 INFO    MainThread:31172 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-25 18:30:19,560 INFO    MainThread:31172 [wandb_setup.py:_flush():76] Configure stats pid to 31172
+2024-05-25 18:30:19,560 INFO    MainThread:31172 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ROG\.config\wandb\settings
+2024-05-25 18:30:19,560 INFO    MainThread:31172 [wandb_setup.py:_flush():76] Loading settings from D:\Penelitian\wandb\settings
+2024-05-25 18:30:19,560 INFO    MainThread:31172 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'mode': 'offline'}
+2024-05-25 18:30:19,560 INFO    MainThread:31172 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'test_we.py', 'program_abspath': 'D:\\Penelitian\\test_we.py', 'program': 'D:\\Penelitian\\test_we.py'}
+2024-05-25 18:30:19,560 INFO    MainThread:31172 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-05-25 18:30:19,560 INFO    MainThread:31172 [wandb_init.py:_log_setup():520] Logging user logs to D:\Penelitian\wandb\offline-run-20240525_183019-sbfrwicm\logs\debug.log
+2024-05-25 18:30:19,561 INFO    MainThread:31172 [wandb_init.py:_log_setup():521] Logging internal logs to D:\Penelitian\wandb\offline-run-20240525_183019-sbfrwicm\logs\debug-internal.log
+2024-05-25 18:30:19,561 INFO    MainThread:31172 [wandb_init.py:init():560] calling init triggers
+2024-05-25 18:30:19,561 INFO    MainThread:31172 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'run': 20, 'char_emb_dim': 20, 'char_max_len': 20, 'char_emb_ascii': '20', 'random_seed': 20, 'shuffle_dataset': '20', 'neighbor': 20, 'validation_split': 0.8, 'batch_size': 20, 'max_epoch': 20, 'learning_rate': 20.0, 'weight_decay': 20.0, 'momentum': 20.0, 'multiplier': 20.0, 'classif': 20, 'model': '20', 'loss_fn': '20', 'loss_reduction': '20', 'pca_components': '20'}
+2024-05-25 18:30:19,561 INFO    MainThread:31172 [wandb_init.py:init():610] starting backend
+2024-05-25 18:30:19,561 INFO    MainThread:31172 [wandb_init.py:init():614] setting up manager
+2024-05-25 18:30:19,562 INFO    MainThread:31172 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-05-25 18:30:19,564 INFO    MainThread:31172 [wandb_init.py:init():622] backend started and connected
+2024-05-25 18:30:19,565 INFO    MainThread:31172 [wandb_init.py:init():711] updated telemetry
+2024-05-25 18:30:19,566 INFO    MainThread:31172 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-25 18:30:19,569 INFO    MainThread:31172 [wandb_init.py:init():795] starting run threads in backend
+2024-05-25 18:30:23,598 WARNING MainThread:31172 [wandb_init.py:init():1168] interrupted
+Traceback (most recent call last):
+  File "D:\miniconda3\envs\ml\lib\site-packages\wandb\sdk\wandb_init.py", line 1164, in init
+    return wi.init()
+  File "D:\miniconda3\envs\ml\lib\site-packages\wandb\sdk\wandb_init.py", line 808, in init
+    run_start_result = run_start_handle.wait(timeout=30)
+  File "D:\miniconda3\envs\ml\lib\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "D:\miniconda3\envs\ml\lib\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "D:\miniconda3\envs\ml\lib\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "D:\miniconda3\envs\ml\lib\threading.py", line 581, in wait
+    signaled = self._cond.wait(timeout)
+  File "D:\miniconda3\envs\ml\lib\threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2024-05-25 18:30:27,996 WARNING MsgRouterThr:31172 [router.py:message_loop():77] message_loop has been closed

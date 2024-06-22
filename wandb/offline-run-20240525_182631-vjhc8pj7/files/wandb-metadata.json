@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.9.16",
+    "heartbeatAt": "2024-05-25T11:26:31.516148",
+    "startedAt": "2024-05-25T11:26:31.418779",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\Penelitian\\test_we.py",
+    "codePathLocal": "test_we.py",
+    "codePath": "test_we.py",
+    "host": "LAPTOP-VQI5CO89",
+    "username": "ROG",
+    "executable": "D:\\miniconda3\\envs\\ml\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3201.0,
+        "min": 0.0,
+        "max": 3201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3201.0,
+            "min": 0.0,
+            "max": 3201.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 686.4794883728027,
+            "used": 452.18096923828125
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.26251220703125
+    }
+}

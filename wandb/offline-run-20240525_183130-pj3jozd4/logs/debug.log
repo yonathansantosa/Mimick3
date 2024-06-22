@@ -1,0 +1,30 @@
+2024-05-25 18:31:30,538 INFO    MainThread:24776 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-25 18:31:30,538 INFO    MainThread:24776 [wandb_setup.py:_flush():76] Configure stats pid to 24776
+2024-05-25 18:31:30,538 INFO    MainThread:24776 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ROG\.config\wandb\settings
+2024-05-25 18:31:30,539 INFO    MainThread:24776 [wandb_setup.py:_flush():76] Loading settings from D:\Penelitian\wandb\settings
+2024-05-25 18:31:30,539 INFO    MainThread:24776 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'mode': 'offline'}
+2024-05-25 18:31:30,539 INFO    MainThread:24776 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'test_we.py', 'program_abspath': 'D:\\Penelitian\\test_we.py', 'program': 'D:\\Penelitian\\test_we.py'}
+2024-05-25 18:31:30,541 INFO    MainThread:24776 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-05-25 18:31:30,541 INFO    MainThread:24776 [wandb_init.py:_log_setup():520] Logging user logs to D:\Penelitian\wandb\offline-run-20240525_183130-pj3jozd4\logs\debug.log
+2024-05-25 18:31:30,541 INFO    MainThread:24776 [wandb_init.py:_log_setup():521] Logging internal logs to D:\Penelitian\wandb\offline-run-20240525_183130-pj3jozd4\logs\debug-internal.log
+2024-05-25 18:31:30,541 INFO    MainThread:24776 [wandb_init.py:init():560] calling init triggers
+2024-05-25 18:31:30,541 INFO    MainThread:24776 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'run': 20, 'char_emb_dim': 20, 'char_max_len': 20, 'char_emb_ascii': '20', 'random_seed': 20, 'shuffle_dataset': '20', 'neighbor': 20, 'validation_split': 0.8, 'batch_size': 20, 'max_epoch': 20, 'learning_rate': 20.0, 'weight_decay': 20.0, 'momentum': 20.0, 'multiplier': 20.0, 'classif': 20, 'model': '20', 'loss_fn': '20', 'loss_reduction': '20', 'pca_components': '20'}
+2024-05-25 18:31:30,541 INFO    MainThread:24776 [wandb_init.py:init():610] starting backend
+2024-05-25 18:31:30,541 INFO    MainThread:24776 [wandb_init.py:init():614] setting up manager
+2024-05-25 18:31:30,543 INFO    MainThread:24776 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-05-25 18:31:30,544 INFO    MainThread:24776 [wandb_init.py:init():622] backend started and connected
+2024-05-25 18:31:30,546 INFO    MainThread:24776 [wandb_init.py:init():711] updated telemetry
+2024-05-25 18:31:30,547 INFO    MainThread:24776 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-25 18:31:30,549 INFO    MainThread:24776 [wandb_init.py:init():795] starting run threads in backend
+2024-05-25 18:31:37,804 INFO    MainThread:24776 [wandb_run.py:_console_start():2374] atexit reg
+2024-05-25 18:31:37,804 INFO    MainThread:24776 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-05-25 18:31:37,804 INFO    MainThread:24776 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-05-25 18:31:37,804 INFO    MainThread:24776 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-05-25 18:31:37,805 INFO    MainThread:24776 [wandb_init.py:init():838] run started, returning control to user process
+2024-05-25 18:31:37,807 INFO    MainThread:24776 [wandb_run.py:_finish():2103] finishing run Mimick/pj3jozd4
+2024-05-25 18:31:37,807 INFO    MainThread:24776 [wandb_run.py:_atexit_cleanup():2343] got exitcode: 0
+2024-05-25 18:31:37,807 INFO    MainThread:24776 [wandb_run.py:_restore():2326] restore
+2024-05-25 18:31:37,807 INFO    MainThread:24776 [wandb_run.py:_restore():2332] restore done
+2024-05-25 18:31:38,910 INFO    MainThread:24776 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-25 18:31:38,910 INFO    MainThread:24776 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
